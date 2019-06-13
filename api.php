@@ -67,7 +67,7 @@
         $lastSocietyNo = $maxSocietyNo['sl_no']; 
 
         //$Entrydate = date('Y-m-d'); // Entry Datefor url 
-        $Entrydate = "2019-05-10";  
+        $Entrydate = "2019-06-10";  
         
         for($i= 1; $i<= $lastSocietyNo; $i++)
         {
@@ -219,8 +219,10 @@
             }
 
             echo "<xmp>".$xml->saveXML()."</xmp>";
-            $xml->save("report.xml"); 
-        
+            $xml->save("report.xml"); // Creating new nodes in existing xml or to create new file as- "report.xml
+
+            //file_put_contents('report.xml', $xml); // Overwritting the existing xml file  
+            
         // Dom Configuration End -->
         
 
