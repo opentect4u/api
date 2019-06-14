@@ -57,7 +57,6 @@
     //DB COnfiguration End --> 
 
 
-
         // Getting society_cd from master table --> 
 
         $tot_society_noSql = " SELECT MAX(sl_no) AS sl_no FROM md_society_cd "; 
@@ -66,8 +65,11 @@
 
         $lastSocietyNo = $maxSocietyNo['sl_no']; 
 
-        //$Entrydate = date('Y-m-d'); // Entry Datefor url 
-        $Entrydate = "2019-06-10";  
+        //$currentDate = date('Y-m-d'); // Entry Datefor url
+
+        $Entrydate = "2019-06-07";  
+        //$Entrydate = date('Y-m-d', strtotime($currentDate. ' - 3 days')); 
+        //echo $Entrydate; die; 
         
         for($i= 1; $i<= $lastSocietyNo; $i++)
         {
@@ -214,7 +216,6 @@
 
                 $Remarks = $xml->createElement("Remarks", $row['Remarks']);
                 $record->appendChild($Remarks); // Creating <Remarks /> Tabs
-
 
             }
 
