@@ -26,36 +26,7 @@
 
 <?php
 
-    // DB COnfiguration Start --> 
-    
-
-    $servername = "synergicportal.in";
-    $username   = "ykghedfafq";
-    $password   = "sss2001";
-    $dbname	    = "ykghedfafq";
-
-
-    // $servername = "localhost";
-    // $username   = "root";
-    // $password   = "teachers";
-    // $dbname	    = "api";
-
-    
-
-    $db_connect = mysqli_connect($servername,$username,$password,$dbname);
-
-	if(!$db_connect) {
-
-		die("Database Connection Failed ".mysqli_connect_error());
-
-	}
-
-	ini_set('session.gc_maxlifetime', 28800);
-	ini_set("display_errors","1");
-    error_reporting(E_ALL);
-
-    //DB COnfiguration End --> 
-
+    require("db_connect.php");  // Getting DB Configuration --> 
 
         // Getting society_cd from master table --> 
 
@@ -139,7 +110,7 @@
                 $sql1 = "insert into td_response (response_cd, response, society_cd, entry_dt) 
                         values ('$response_cd', '$data', '$SocietyCode', '$Entrydate') ";
                 
-                $result1     =   mysqli_query($db_connect,$sql1);
+                //$result1     =   mysqli_query($db_connect,$sql1);
 
                 foreach($array as $key=>$row) 
                 {
@@ -153,7 +124,7 @@
                     $query = substr_replace($sql2 ,"",-1);
                     $query .= ")";
 
-                    $result2     =   mysqli_query($db_connect,$query);
+                    //$result2     =   mysqli_query($db_connect,$query);
                     
                 }
                 
