@@ -1,28 +1,3 @@
-<!-- <html>
-    <form action="<?php //echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
-
-        <span class="contact1-form-title">
-            Give Details
-        </span>
-        <hr><br>
-
-        <div>
-            <label for="SocietyCode">SocietyCode</label>
-            <input type="text" value= "" name= "SocietyCode" id= "SocietyCode" >
-        </div>
-        <br>
-        <div>
-            <label for="Entrydate">Entrydate</label>        
-            <input type="date" value= "" name= "Entrydate" id= "Entrydate" >
-        </div>
-        <br>
-        <button>Submit</button>
-    </form>
-    <hr>
-
-</html> -->
-
-
 
 <?php
 
@@ -31,15 +6,22 @@
         // Getting society_cd from master table --> 
 
         $tot_society_noSql = " SELECT MAX(sl_no) AS sl_no FROM md_society_cd "; 
-        $tot_society_noResult =  mysqli_query($db_connect, $tot_society_noSql);
+        $tot_society_noResult = mysqli_query($db_connect, $tot_society_noSql);
         $maxSocietyNo = mysqli_fetch_assoc($tot_society_noResult);
 
         $lastSocietyNo = $maxSocietyNo['sl_no']; 
 
-        //$currentDate = date('Y-m-d'); // Entry Datefor url
+        
+        $getDateRangeSql = " SELECT date_range FROM td_date_range ";
+        $dateRangeResult = mysqli_query($db_connect, $getDateRangeSql);
+        $dateRange = mysqli_fetch_assoc($dateRangeResult);
+        //echo $dateRange['date_range']; die;
 
-        $Entrydate = "2019-06-07";  
-        //$Entrydate = date('Y-m-d', strtotime($currentDate. ' - 3 days')); 
+        $currentDate = date('Y-m-d'); // Entry Datefor url
+
+        //$Entrydate = "2019-06-07";  
+        $Entrydate = date('Y-m-d', strtotime($currentDate. ' - '.$dateRange['date_range'].' days')); 
+
         //echo $Entrydate; die; 
         
         for($i= 1; $i<= $lastSocietyNo; $i++)

@@ -44,7 +44,7 @@
         <li><a class="active" href="dashboard.php">Home</a></li>
         <li><a href="addSociety.php">Add Society</a></li>
         <li><a href="setDate.php">Set Date</a></li>
-        <li><a href="api.php" target=_blank>Manual Fire</a></li>
+        <li><a href="manual.php">Manual Data</a></li>
         <li style="float:right"><a href="logout.php">Logout</a></li>
         </ul>
 

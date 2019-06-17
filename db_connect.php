@@ -3,16 +3,16 @@
     // DB COnfiguration Start --> 
     
 
-    // $servername = "synergicportal.in";
-    // $username   = "ykghedfafq";
-    // $password   = "sss2001";
-    // $dbname	    = "ykghedfafq";
+    $servername = "synergicportal.in";
+    $username   = "ykghedfafq";
+    $password   = "sss2001";
+    $dbname	    = "ykghedfafq";
 
 
-    $servername = "localhost";
-    $username   = "root";
-    $password   = "teachers";
-    $dbname	    = "api";
+    // $servername = "localhost";
+    // $username   = "root";
+    // $password   = "teachers";
+    // $dbname	    = "api";
 
     
 

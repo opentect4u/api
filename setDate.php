@@ -12,7 +12,27 @@
     $dateResult = mysqli_query($db_connect,$getDateSql);
     $dateRange = mysqli_fetch_assoc($dateResult);
     
-    echo $dateRange['date_range']; die;
+    //echo $dateRange['date_range']; die;
+
+
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+
+        $currentDate = $_POST['currentDate'];
+        $date_range = $_POST['newDate'];
+        $date = date('Y-m-d');
+        $modified_by = $_SESSION['user_id'];
+        $modified_dt = date('Y-m-d h:i:s');
+ 
+        $add_sql = " UPDATE td_date_range SET date = '$date', date_range = '$date_range', last_modified_by = '$modified_by', last_modified_dt = '$modified_dt'
+                    WHERE date_range = $currentDate ";
+        //echo $add_sql; die;
+        $addResult = mysqli_query($db_connect,$add_sql);
+
+        header('location: setDate.php');
+
+    }
 
 
 ?>
@@ -28,7 +48,47 @@
     
     <body>
 
+        <div class="container">
+            <h2>Set Date Range : </h2>
+            <hr>
 
+            <form class="form-horizontal" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" >
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="currentDate">Current Date Range:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" value= "<?php echo $dateRange['date_range']; ?>" id="currentDate" placeholder="Current Date Range" name="currentDate" readonly>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="newDate">New Date Range:</label>
+                    <div class="col-sm-6">
+                        <select class= "form-control" name="newDate" id="newDate">
+                            <option value="">Select Date Range</option>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">        
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+
+            </form>
+            <hr>
+
+        </div>
 
     </body>
 

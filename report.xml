@@ -2,266 +2,68 @@
 <response>
   <record>
     <society_cd>1801</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122004014881</CBSAcNo>
-    <SocAcNo>36005200</SocAcNo>
-    <AcHolderName>Mr. RINKU  GHOSH</AcHolderName>
+    <entry_dt>2019-06-10</entry_dt>
+    <CBSAcNo>122007644935</CBSAcNo>
+    <SocAcNo>36005775</SocAcNo>
+    <AcHolderName>Mr. PRATIVA  MALLIK</AcHolderName>
     <SocDesCA>122000977970</SocDesCA>
     <SocName>RAMNAGAR BACHRA SKUS LTD.</SocName>
-    <Amount>41.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122006161970</CBSAcNo>
-    <SocAcNo>2701</SocAcNo>
-    <AcHolderName>Mr. FARIDA  YASMIN</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122002826385</CBSAcNo>
-    <SocAcNo>1567</SocAcNo>
-    <AcHolderName>Mr. NUR ISLAM MOLLA</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003459130</CBSAcNo>
-    <SocAcNo>478</SocAcNo>
-    <AcHolderName>Mr. SUJAY  DEY</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.37</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003543747</CBSAcNo>
-    <SocAcNo>2070</SocAcNo>
-    <AcHolderName>Mr. DELWARA  KHATUN</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003559167</CBSAcNo>
-    <SocAcNo>2072</SocAcNo>
-    <AcHolderName>Mr. HAFIJA  BIBI</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003591587</CBSAcNo>
-    <SocAcNo>2085</SocAcNo>
-    <AcHolderName>Mr. TUKU  SARKAR</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
     <Amount>269.17</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003591600</CBSAcNo>
-    <SocAcNo>2087</SocAcNo>
-    <AcHolderName>Mr. REJUAN  SK</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003616264</CBSAcNo>
-    <SocAcNo>2098</SocAcNo>
-    <AcHolderName>Mr. AFROJA  BIBI</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003616491</CBSAcNo>
-    <SocAcNo>2116</SocAcNo>
-    <AcHolderName>Mr. RAKIBUL SK  SUFIA BEGUM</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003863440</CBSAcNo>
-    <SocAcNo>2162</SocAcNo>
-    <AcHolderName>Mr. NURJAHAN BIBI  SHERFUL MO</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122004612485</CBSAcNo>
-    <SocAcNo>2380</SocAcNo>
-    <AcHolderName>Mr. CHAYNA  BIBI</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
     <Remarks>Others-DBT</Remarks>
   </record>
   <record>
     <society_cd>1801</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122004014881</CBSAcNo>
-    <SocAcNo>36005200</SocAcNo>
-    <AcHolderName>Mr. RINKU  GHOSH</AcHolderName>
+    <entry_dt>2019-06-10</entry_dt>
+    <CBSAcNo>122007644935</CBSAcNo>
+    <SocAcNo>36005775</SocAcNo>
+    <AcHolderName>Mr. PRATIVA  MALLIK</AcHolderName>
     <SocDesCA>122000977970</SocDesCA>
     <SocName>RAMNAGAR BACHRA SKUS LTD.</SocName>
-    <Amount>41.00</Amount>
+    <Amount>269.17</Amount>
     <Remarks>Others-DBT</Remarks>
   </record>
   <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122006161970</CBSAcNo>
-    <SocAcNo>2701</SocAcNo>
-    <AcHolderName>Mr. FARIDA  YASMIN</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122002826385</CBSAcNo>
-    <SocAcNo>1567</SocAcNo>
-    <AcHolderName>Mr. NUR ISLAM MOLLA</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003459130</CBSAcNo>
-    <SocAcNo>478</SocAcNo>
-    <AcHolderName>Mr. SUJAY  DEY</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.37</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003543747</CBSAcNo>
-    <SocAcNo>2070</SocAcNo>
-    <AcHolderName>Mr. DELWARA  KHATUN</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003559167</CBSAcNo>
-    <SocAcNo>2072</SocAcNo>
-    <AcHolderName>Mr. HAFIJA  BIBI</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003591587</CBSAcNo>
-    <SocAcNo>2085</SocAcNo>
-    <AcHolderName>Mr. TUKU  SARKAR</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
+    <society_cd>1801</society_cd>
+    <entry_dt>2019-06-10</entry_dt>
+    <CBSAcNo>122007644935</CBSAcNo>
+    <SocAcNo>36005775</SocAcNo>
+    <AcHolderName>Mr. PRATIVA  MALLIK</AcHolderName>
+    <SocDesCA>122000977970</SocDesCA>
+    <SocName>RAMNAGAR BACHRA SKUS LTD.</SocName>
     <Amount>269.17</Amount>
     <Remarks>Others-DBT</Remarks>
   </record>
   <record>
     <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003591600</CBSAcNo>
-    <SocAcNo>2087</SocAcNo>
-    <AcHolderName>Mr. REJUAN  SK</AcHolderName>
+    <entry_dt>2019-06-10</entry_dt>
+    <CBSAcNo>122003320378</CBSAcNo>
+    <SocAcNo>1378</SocAcNo>
+    <AcHolderName>Mr. GOLAM MOSTAFA MOLLA</AcHolderName>
     <SocDesCA>122001814961</SocDesCA>
     <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
+    <Amount>771.00</Amount>
+    <Remarks>Others-DBT</Remarks>
+  </record>
+  <record>
+    <society_cd>1801</society_cd>
+    <entry_dt>2019-06-10</entry_dt>
+    <CBSAcNo>122007644935</CBSAcNo>
+    <SocAcNo>36005775</SocAcNo>
+    <AcHolderName>Mr. PRATIVA  MALLIK</AcHolderName>
+    <SocDesCA>122000977970</SocDesCA>
+    <SocName>RAMNAGAR BACHRA SKUS LTD.</SocName>
+    <Amount>269.17</Amount>
     <Remarks>Others-DBT</Remarks>
   </record>
   <record>
     <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003616264</CBSAcNo>
-    <SocAcNo>2098</SocAcNo>
-    <AcHolderName>Mr. AFROJA  BIBI</AcHolderName>
+    <entry_dt>2019-06-10</entry_dt>
+    <CBSAcNo>122003320378</CBSAcNo>
+    <SocAcNo>1378</SocAcNo>
+    <AcHolderName>Mr. GOLAM MOSTAFA MOLLA</AcHolderName>
     <SocDesCA>122001814961</SocDesCA>
     <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003616491</CBSAcNo>
-    <SocAcNo>2116</SocAcNo>
-    <AcHolderName>Mr. RAKIBUL SK  SUFIA BEGUM</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122003863440</CBSAcNo>
-    <SocAcNo>2162</SocAcNo>
-    <AcHolderName>Mr. NURJAHAN BIBI  SHERFUL MO</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>1000.00</Amount>
-    <Remarks>Others-DBT</Remarks>
-  </record>
-  <record>
-    <society_cd>521</society_cd>
-    <entry_dt>2019-06-07</entry_dt>
-    <CBSAcNo>122004612485</CBSAcNo>
-    <SocAcNo>2380</SocAcNo>
-    <AcHolderName>Mr. CHAYNA  BIBI</AcHolderName>
-    <SocDesCA>122001814961</SocDesCA>
-    <SocName>KULBERIA</SocName>
-    <Amount>275.36</Amount>
+    <Amount>771.00</Amount>
     <Remarks>Others-DBT</Remarks>
   </record>
 </response>
