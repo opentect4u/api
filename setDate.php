@@ -11,6 +11,9 @@
     $getDateSql = "SELECT date_range FROM td_date_range ";
     $dateResult = mysqli_query($db_connect,$getDateSql);
     $dateRange = mysqli_fetch_assoc($dateResult);
+
+    $currentDate = date('Y-m-d');
+    $Entrydate = date('Y-m-d', strtotime($currentDate. ' - '.$dateRange['date_range'].' days')) ;
     
     //echo $dateRange['date_range']; die;
 
@@ -58,6 +61,12 @@
                     <label class="control-label col-sm-2" for="currentDate">Current Date Range:</label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" value= "<?php echo $dateRange['date_range']; ?>" id="currentDate" placeholder="Current Date Range" name="currentDate" readonly>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="entryDate">Entry Date:</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" value= "<?php echo $Entrydate; ?>" id="entryDate" placeholder="Current Date Range" name="entryDate" readonly>
                     </div>
                 </div>
                 <div class="form-group">

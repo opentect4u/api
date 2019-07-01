@@ -10,7 +10,7 @@
         $maxSocietyNo = mysqli_fetch_assoc($tot_society_noResult);
 
         $lastSocietyNo = $maxSocietyNo['sl_no']; 
-
+        //echo $lastSocietyNo; die;
         
         $getDateRangeSql = " SELECT date_range FROM td_date_range ";
         $dateRangeResult = mysqli_query($db_connect, $getDateRangeSql);
@@ -24,6 +24,8 @@
 
         //echo $Entrydate; die; 
         
+        $fired_at = date('Y-m-d h:i:s');
+
         for($i= 1; $i<= $lastSocietyNo; $i++)
         {
 
@@ -31,12 +33,12 @@
             $getSocietyCodeResult = mysqli_query($db_connect, $getSocietyCodeSql);
             $getSocietyCode = mysqli_fetch_assoc($getSocietyCodeResult);
             $SocietyCode = $getSocietyCode['society_cd']; 
-
+            //echo $SocietyCode; die;
 
             // Getting response from URL with the each societyCode and EntryDate(today) --> 
 
             $file = "https://mdccb.org/API/getInWardListData.php?SocietyCode=".$SocietyCode."&Entrydate=".$Entrydate;
-            
+            //echo $file; die;
             $data = file_get_contents($file);
         
             $data = mb_substr($data, strpos($data, '{'));
@@ -89,11 +91,11 @@
                 //echo ($responseCode['response_cd'] + 1); die;
                 $response_cd = $responseCode['response_cd'] + 1;
             
-                $sql1 = "insert into td_response (response_cd, response, society_cd, entry_dt) 
-                        values ('$response_cd', '$data', '$SocietyCode', '$Entrydate') ";
+                $sql1 = "insert into td_response (response_cd, response, society_cd, entry_dt, fired_at) 
+                        values ('$response_cd', '$data', '$SocietyCode', '$Entrydate', '$fired_at') ";
                 
-                //$result1     =   mysqli_query($db_connect,$sql1);
-
+                $result1     =   mysqli_query($db_connect,$sql1);
+                //echo $sql1; die;
                 foreach($array as $key=>$row) 
                 {
 
@@ -103,11 +105,11 @@
                     {
                         $sql2 .=  "'".$row2."'".' ,' ;
                     }
-                    $query = substr_replace($sql2 ,"",-1);
-                    $query .= ")";
+                    $sql2 = substr_replace($sql2 ,"",-1);
+                    $sql2 .= ")";
 
-                    //$result2     =   mysqli_query($db_connect,$query);
-                    
+                    $result2     =   mysqli_query($db_connect,$sql2);
+                    //echo $sql2; die;
                 }
                 
                
@@ -115,7 +117,7 @@
 
             
         }
-
+        
         
         //////////////////////////////////////////////////////
                 //Generating XML File
